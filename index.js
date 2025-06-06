@@ -560,8 +560,3 @@ app.get('/stats', (req, res) => {
     });
 });
 
-// Start web server
-app.listen(PORT, () => {
-    console.log(`🌐 Web server running on port ${PORT}`);
-    console.log(`📡 Bot keepalive server started`);
-});
